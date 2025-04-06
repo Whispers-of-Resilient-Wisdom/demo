@@ -1,0 +1,15 @@
+{
+  "code": 200,
+  "msg": "success",
+  "data": [
+    {
+      "skuId": 90713,
+      "skuPrice": 100,
+      "skuCode": "kanshdiun12983",
+      "name": "爱的纸巾100包",
+      "iconUrl": "\nhttps://webtest1273737.oss-cn-beijing.aliyuncs.com/image/%E4%BA%9A%E6%B4%B2%E7%BE%8E%E5%A5%B3%20%281%29.jpg",
+      "originalIconUrl": "URL\nhttps://webtest1273737.oss-cn-beijing.aliyuncs.com/image/%E4%BA%9A%E6%B4%B2%E7%BE%8E%E5%A5%B3%20%282%29.jpg",
+      "remark": "不错"
+    }
+  ]
+}

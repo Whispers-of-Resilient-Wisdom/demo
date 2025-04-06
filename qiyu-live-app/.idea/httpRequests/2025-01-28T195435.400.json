@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-01-28T11:54:35.765+00:00",
+  "status": 400,
+  "error": "Bad Request",
+  "path": "/batchQuery"
+}

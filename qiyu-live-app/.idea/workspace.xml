@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7e8d5ad2-4dbe-48a4-aa4c-b3208d334238" name="更改" comment="qiyu-live-app newest">
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/controller/BankController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/controller/GiftController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/controller/ImController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/controller/ShopInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/IBankService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/IGiftService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/IShopInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/ImService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/impl/BankServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/impl/GiftServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/impl/ImServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/impl/ShopInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/req/PrepareOrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/req/ShopCarReqVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/req/SkuInfoReqVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/RedPacketReceiveVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/ShopCarRespVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/SkuDetailInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/SkuInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-api/src/main/java/org/qiyu/live/bank/api/BankApiApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-api/src/main/java/org/qiyu/live/bank/api/controller/PayNotifyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-api/src/main/java/org/qiyu/live/bank/api/service/IPayNotifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-api/src/main/java/org/qiyu/live/bank/api/service/impl/PayNotifyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-api/src/main/java/org/qiyu/live/bank/api/vo/WxPayNotifyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-api/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/constants/OrderStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/constants/PayChannelEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/constants/PayProductTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/constants/PaySourceEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/constants/TradeTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/dto/AccountTradeReqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/dto/AccountTradeRespDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/dto/PayOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/dto/PayProductDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/dto/QiyuCurrencyAccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/interfaces/IPayOrderRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/interfaces/IPayProductRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-interface/src/main/java/org/qiyu/live/bank/interfaces/IQiyuCurrencyAccountRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/BankProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/dao/maper/IPayOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/dao/maper/IPayProductMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/dao/maper/IPayTopicMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/dao/maper/IQiyuCurrencyAccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/dao/maper/IQiyuCurrencyTradeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/dao/po/PayOrderPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/dao/po/PayProductPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/dao/po/PayTopicPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/dao/po/QiyuCurrencyAccountPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/dao/po/QiyuCurrencyTradePO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/rpc/PayOrderRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/rpc/PayProductRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/rpc/QiyuCurrencyAccountRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/service/IPayOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/service/IPayProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/service/IPayTopicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/service/IQiyuCurrencyAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/service/IQiyuCurrencyTradeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/service/impl/PayOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/service/impl/PayProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/service/impl/PayTopicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/service/impl/QiyuCurrencyAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/java/org/qiyu/live/bank/provider/service/impl/QiyuCurrencyTradeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-bank-provider/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-common-interface/src/main/java/com/qiyu/live/common/interfaces/utils/ConvertBeanUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-common-interface/src/main/java/com/qiyu/live/common/interfaces/utils/ListUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-datasource-starter/src/main/java/org/idea/qiyu/live/framework/datasource/starter/NacosDriverURLProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-datasource-starter/src/main/resources/META-INF/services/org.apache.shardingsphere.driver.jdbc.core.driver.ShardingSphereDriverURLProvider" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-web-starter/src/main/java/org/qiyu/live/web/starter/Interceptor/RequestLimitInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/BO/RollBackStockBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/BO/SendRedPacketBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/constants/RedPacketStatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/constants/SendGiftTypeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/constants/SkuOrderInfoEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/GiftConfigDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/GiftRecordDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/PrepareOrderReqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/RedPacketConfigReqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/RedPacketConfigRespDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/RedPacketReceiveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/RollBackStockDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/ShopCarItemRespDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/ShopCarReqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/ShopCarRespDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/SkuDetailInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/SkuInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/SkuOrderInfoReqDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/SkuOrderInfoRespDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/dto/SkuPrepareOrderInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/interfaces/IGiftConfigRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/interfaces/IGiftRecordRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/interfaces/IRedPacketConfigRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/interfaces/IShopCarRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/interfaces/ISkuInfoRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/interfaces/ISkuOrderInfoRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-interface/src/main/java/org/qiyu/live/gift/interfaces/ISkuStockInfoRpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/GiftProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/config/BatchConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/config/RefreshStockNumConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/consumer/DelayedTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/consumer/GiftConfigCacheConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/consumer/ReceiveRedPacketConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/consumer/SendGiftConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/consumer/StartLivingRoomConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/consumer/StockRollBackConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/mapper/GiftConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/mapper/GiftRecordMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/mapper/IAnchorShopInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/mapper/ICategoryInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/mapper/IRedPacketConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/mapper/ISkuInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/mapper/ISkuOrderInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/mapper/ISkuStockInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/po/AnchorShopInfoPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/po/CategoryInfoPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/po/GiftConfigPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/po/GiftRecordPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/po/RedPacketConfigPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/po/SkuInfoPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/po/SkuOrderInfoPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/dao/po/SkuStockInfoPO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/rpc/GiftConfigRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/rpc/GiftRecordRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/rpc/RedPacketConfigRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/rpc/ShopCarRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/rpc/SkuInfoRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/rpc/SkuOrderInfoRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/rpc/SkuStockInfoRpcImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/IAnchorShopInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/IGiftConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/IGiftRecordService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/IRedPacketConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/IShopCarService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/ISkuInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/ISkuOrderInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/ISkuStockInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/bo/GiftCacheRemoveBO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/impl/AnchorShopInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/impl/GiftConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/impl/GiftRecordServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/impl/RedPacketConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/impl/ShopCarServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/impl/SkuInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/impl/SkuOrderInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/java/org/qiyu/live/gift/provider/service/impl/SkuStockInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/resources/getPkNumAndSeqId.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-gift-provider/src/main/resources/secKill.lua" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/handler/tcp/TcpImServerCoreHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/handler/ws/WsImServerCoreHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/handler/ws/WsSharkHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/starter/WsNettyImServerStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/44ce9ff3-3f2f-4587-8579-239e81d4c203.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/44ce9ff3-3f2f-4587-8579-239e81d4c203.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2025-01-27T170345.500.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-account-provider/src/main/resources/bootstrap.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-account-provider/src/main/resources/bootstrap.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/ApiWebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/ApiWebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/controller/LivingRoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/controller/LivingRoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/ILivingRoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/ILivingRoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/impl/LivingRoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/impl/LivingRoomServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/HomePageVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/HomePageVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/LivingRoomInitVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/LivingRoomInitVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/UserLoginVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/UserLoginVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/req/GiftReqVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/req/GiftReqVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/req/LivingRoomReqVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/req/LivingRoomReqVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/req/OnlinePkReqVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/req/OnlinePkReqVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/req/PayProductReqVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/req/PayProductReqVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/GiftConfigVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/GiftConfigVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/ImConfigVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/ImConfigVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/LivingRoomPageRespVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/LivingRoomPageRespVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/LivingRoomRespVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/LivingRoomRespVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/PayProductItemVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/PayProductItemVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/PayProductRespVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/PayProductRespVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/PayProductVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/vo/resp/PayProductVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/target/classes/org/qiyu/live/api/ApiWebApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/target/classes/org/qiyu/live/api/ApiWebApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-api/target/classes/org/qiyu/live/api/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-api/target/classes/org/qiyu/live/api/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-common-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-common-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-common-interface/src/main/java/com/qiyu/live/common/interfaces/Enum/CommonStatusEum.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-common-interface/src/main/java/com/qiyu/live/common/interfaces/Enum/CommonStatusEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-common-interface/src/main/java/com/qiyu/live/common/interfaces/topic/GiftProviderTopicNames.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-common-interface/src/main/java/com/qiyu/live/common/interfaces/topic/GiftProviderTopicNames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-datasource-starter/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-datasource-starter/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-redis-starter/src/main/java/org/qiyu/live/framework/redis/starter/key/GiftProviderCacheKeyBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-redis-starter/src/main/java/org/qiyu/live/framework/redis/starter/key/GiftProviderCacheKeyBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-gateway/src/main/java/org/qiyu/live/gateway/filter/AccountCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-gateway/src/main/java/org/qiyu/live/gateway/filter/AccountCheckFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-interface/src/main/java/org/qiyu/live/id/generate/interfaces/Enum/IdTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-interface/src/main/java/org/qiyu/live/id/generate/interfaces/Enum/IdTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/src/main/java/org/qiyu/live/id/generate/provider/IdGenerateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-provider/src/main/java/org/qiyu/live/id/generate/provider/IdGenerateApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/src/main/java/org/qiyu/live/id/generate/provider/dao/po/IdBuilderPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-provider/src/main/java/org/qiyu/live/id/generate/provider/dao/po/IdBuilderPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/src/main/java/org/qiyu/live/id/generate/provider/service/BO/LocalSeqIdBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-provider/src/main/java/org/qiyu/live/id/generate/provider/service/BO/LocalSeqIdBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/src/main/java/org/qiyu/live/id/generate/provider/service/BO/LocalUnSeqIdBO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-provider/src/main/java/org/qiyu/live/id/generate/provider/service/BO/LocalUnSeqIdBO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/IdGenerateApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/IdGenerateApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/RPC/IdBuilderRpcImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/RPC/IdBuilderRpcImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/dao/po/IdBuilderPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/dao/po/IdBuilderPO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/service/BO/LocalSeqIdBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/service/BO/LocalSeqIdBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/service/BO/LocalUnSeqIdBO.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/service/BO/LocalUnSeqIdBO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/service/impl/IdGenerateServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/classes/org/qiyu/live/id/generate/provider/service/impl/IdGenerateServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-id-generate-provider/target/test-classes/testConnection.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-interface/src/main/java/org/qiyu/live/im/core/server/interfaces/dto/ImOfflineDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-interface/src/main/java/org/qiyu/live/im/core/server/interfaces/dto/ImOfflineDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-interface/src/main/java/org/qiyu/live/im/core/server/interfaces/dto/ImOnlineDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-interface/src/main/java/org/qiyu/live/im/core/server/interfaces/dto/ImOnlineDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/common/ChannelHandlerContextCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/common/ChannelHandlerContextCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/common/ImMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/common/ImMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/handler/ImServerCoreHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/handler/impl/ImHandlerFactoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/handler/impl/ImHandlerFactoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/handler/impl/LoginMsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/handler/impl/LoginMsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/handler/impl/LogoutMsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/handler/impl/LogoutMsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/service/impl/RouterHandlerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/service/impl/RouterHandlerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/starter/TcpNettyImServerStarter.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-core-server/src/main/java/org/qiyu/live/core/server/starter/TcpNettyImServerStarter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/org/qiyu/live/im/DTO/ImMsgBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/org/qiyu/live/im/DTO/ImMsgBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/org/qiyu/live/im/constants/ImMsgCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/org/qiyu/live/im/constants/ImMsgCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/org/qiyu/live/im/enmu/AppIdEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/org/qiyu/live/im/enmu/AppIdEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/org/qiyu/live/im/enmu/ImMsgCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-interface/src/main/java/org/qiyu/live/im/enmu/ImMsgCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-provider/src/main/java/org/qiyu/live/im/provider/ImProviderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-provider/src/main/java/org/qiyu/live/im/provider/ImProviderApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-router-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-router-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-router-interface/src/main/java/org/qiyu/live/im/router/interfaces/constants/ImMsgBizCodeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-router-interface/src/main/java/org/qiyu/live/im/router/interfaces/constants/ImMsgBizCodeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-im-router-provider/src/main/java/org/qiyu/live/im/router/provider/service/impl/ImRouterServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-im-router-provider/src/main/java/org/qiyu/live/im/router/provider/service/impl/ImRouterServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-living-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-living-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-living-interface/src/main/java/org/qiyu/live/living/interfaces/constants/LivingRoomTypeEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-living-interface/src/main/java/org/qiyu/live/living/interfaces/constants/LivingRoomTypeEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-living-interface/src/main/java/org/qiyu/live/living/interfaces/dto/LivingPkRespDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-living-interface/src/main/java/org/qiyu/live/living/interfaces/dto/LivingPkRespDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-living-interface/src/main/java/org/qiyu/live/living/interfaces/dto/LivingRoomReqDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-living-interface/src/main/java/org/qiyu/live/living/interfaces/dto/LivingRoomReqDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-living-interface/src/main/java/org/qiyu/live/living/interfaces/dto/LivingRoomRespDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-living-interface/src/main/java/org/qiyu/live/living/interfaces/dto/LivingRoomRespDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-living-interface/src/main/java/org/qiyu/live/living/interfaces/rpc/ILivingRoomRpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-living-interface/src/main/java/org/qiyu/live/living/interfaces/rpc/ILivingRoomRpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-msg-interface/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-msg-interface/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-msg-interface/src/main/java/org/qiyu/live/msg/provider/DTO/MessageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-msg-interface/src/main/java/org/qiyu/live/msg/provider/DTO/MessageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-msg-interface/src/main/java/org/qiyu/live/msg/provider/DTO/MsgCheckDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-msg-interface/src/main/java/org/qiyu/live/msg/provider/DTO/MsgCheckDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-msg-interface/src/main/java/org/qiyu/live/msg/provider/Enums/MsgSendResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-msg-interface/src/main/java/org/qiyu/live/msg/provider/Enums/MsgSendResultEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-msg-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-msg-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-msg-provider/src/main/java/org/qiyu/live/msg/provider/consumer/handler/impl/SingleMessageHandlerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-msg-provider/src/main/java/org/qiyu/live/msg/provider/consumer/handler/impl/SingleMessageHandlerImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-msg-provider/src/main/java/org/qiyu/live/msg/provider/dao/po/SmsPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-msg-provider/src/main/java/org/qiyu/live/msg/provider/dao/po/SmsPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/constants/CacheAsyncDeleteCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/constants/CacheAsyncDeleteCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/constants/UserTagsEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/constants/UserTagsEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/dto/UserLoginDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/dto/UserLoginDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/dto/UserPhoneDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/dto/UserPhoneDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/dto/UserTagDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/dto/UserTagDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/interfaces/IUserPhoneRpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-interface/src/main/java/org/qiyu/live/user/interfaces/IUserPhoneRpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-interface/target/classes/org/qiyu/live/user/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-interface/target/classes/org/qiyu/live/user/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/config/RocketMQConsumerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/config/RocketMQConsumerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/config/RocketMQProducerProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/config/RocketMQProducerProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/dao/po/UserPhonePO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/dao/po/UserPhonePO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/dao/po/UserPo.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/dao/po/UserPo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/dao/po/UserTagPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/dao/po/UserTagPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/service/impl/UserPhoneServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/src/main/java/org/qiyu/user/provider/service/impl/UserPhoneServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/target/classes/org/qiyu/user/provider/config/RocketMQConsumerProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/target/classes/org/qiyu/user/provider/config/RocketMQConsumerProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/target/classes/org/qiyu/user/provider/config/RocketMQProducerProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/target/classes/org/qiyu/user/provider/config/RocketMQProducerProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-live-user-provider/target/classes/org/qiyu/user/provider/dao/po/UserPo.class" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-live-user-provider/target/classes/org/qiyu/user/provider/dao/po/UserPo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-living-room-provider/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-living-room-provider/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/config/RefreshLivingRoomListJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/config/RefreshLivingRoomListJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/dao/po/LivingRoomPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/dao/po/LivingRoomPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/dao/po/LivingRoomRecordPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/dao/po/LivingRoomRecordPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/rpc/LivingRoomRpcImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/rpc/LivingRoomRpcImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/service/ILivingRoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/service/ILivingRoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/service/impl/LivingRoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/service/impl/LivingRoomServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/service/impl/LivingRoomTxServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/qiyu-living-room-provider/src/main/java/org/qiyu/live/living/provider/service/impl/LivingRoomTxServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Public Environment File" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/945d27e5-d91a-4128-bb60-152bab172454_qiyu-live-app-master.zip.454/qiyu-live-app/qiyu-live-user-provider/src/main/resources/bootstrap.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$USER_HOME$/AppData/Local/Temp/fd9b5c53-1d53-429c-9ada-a17b2c2ed4b7_qiyu-live-app-master.zip.4b7/qiyu-live-app/qiyu-live-user-provider/src/main/java/org/qiyu/live/user/provider/dao/po/UserTagPO.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/qiyu-live-id-generate-provider/src/main/java/org/qiyu/live/id/generate/provider/service/impl/IdGenerateServiceImpl.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\app\apache-maven-3.9.7" />
+        <option name="localRepository" value="D:\app\apache-maven-3.9.7\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\app\apache-maven-3.9.7\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2pf6FoPUsYguajU2UvIntHDPU3S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "HTTP Request.generated-requests | #1.executor": "Run",
+    "HTTP Request.generated-requests | #11.executor": "Run",
+    "HTTP Request.generated-requests | #3.executor": "Run",
+    "HTTP Request.generated-requests | #34.executor": "Run",
+    "HTTP Request.generated-requests | #4.executor": "Run",
+    "HTTP Request.generated-requests | #5.executor": "Run",
+    "HTTP Request.generated-requests | #6.executor": "Run",
+    "HTTP Request.generated-requests | #7.executor": "Run",
+    "HTTP 请求.generated-requests | #1.executor": "Run",
+    "HTTP 请求.generated-requests | #10.executor": "Run",
+    "HTTP 请求.generated-requests | #11.executor": "Run",
+    "HTTP 请求.generated-requests | #12.executor": "Run",
+    "HTTP 请求.generated-requests | #13.executor": "Run",
+    "HTTP 请求.generated-requests | #14.executor": "Run",
+    "HTTP 请求.generated-requests | #15.executor": "Run",
+    "HTTP 请求.generated-requests | #16.executor": "Run",
+    "HTTP 请求.generated-requests | #17.executor": "Run",
+    "HTTP 请求.generated-requests | #18.executor": "Run",
+    "HTTP 请求.generated-requests | #19.executor": "Run",
+    "HTTP 请求.generated-requests | #2.executor": "Run",
+    "HTTP 请求.generated-requests | #20.executor": "Run",
+    "HTTP 请求.generated-requests | #21.executor": "Run",
+    "HTTP 请求.generated-requests | #22.executor": "Run",
+    "HTTP 请求.generated-requests | #23.executor": "Run",
+    "HTTP 请求.generated-requests | #24.executor": "Run",
+    "HTTP 请求.generated-requests | #25.executor": "Run",
+    "HTTP 请求.generated-requests | #26.executor": "Run",
+    "HTTP 请求.generated-requests | #28.executor": "Run",
+    "HTTP 请求.generated-requests | #29.executor": "Run",
+    "HTTP 请求.generated-requests | #3.executor": "Run",
+    "HTTP 请求.generated-requests | #30.executor": "Run",
+    "HTTP 请求.generated-requests | #31.executor": "Run",
+    "HTTP 请求.generated-requests | #4.executor": "Run",
+    "HTTP 请求.generated-requests | #5.executor": "Run",
+    "HTTP 请求.generated-requests | #8.executor": "Run",
+    "HTTP 请求.generated-requests | #9.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "Maven.qiyu-live-api [clean].executor": "Run",
+    "Maven.qiyu-live-api [deploy].executor": "Run",
+    "Maven.qiyu-live-api [install].executor": "Run",
+    "Maven.qiyu-live-bank-interface [clean].executor": "Run",
+    "Maven.qiyu-live-common-interface [clean].executor": "Run",
+    "Maven.qiyu-live-common-interface [package].executor": "Run",
+    "Maven.qiyu-live-framework-datasource-starter [package].executor": "Run",
+    "Maven.qiyu-live-framework-web-starter [clean].executor": "Run",
+    "Maven.qiyu-live-framework-web-starter [package].executor": "Run",
+    "Maven.qiyu-live-user-interface [deploy].executor": "Run",
+    "Maven.qiyu-live-user-interface [install].executor": "Run",
+    "Maven.qiyu-live-user-provider [deploy].executor": "Run",
+    "Maven.qiyu-live-user-provider [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AccountProviderApplication.executor": "Run",
+    "Spring Boot.ApiWebApplication.executor": "Debug",
+    "Spring Boot.BankApiApplication.executor": "Run",
+    "Spring Boot.BankProviderApplication.executor": "Run",
+    "Spring Boot.GatewayApplication.executor": "Run",
+    "Spring Boot.GiftProviderApplication.executor": "Debug",
+    "Spring Boot.IdGenerateApplication.executor": "Run",
+    "Spring Boot.ImClientApplication (1).executor": "Run",
+    "Spring Boot.ImClientApplication.executor": "Run",
+    "Spring Boot.ImProviderApplication.executor": "Run",
+    "Spring Boot.ImRouterProviderApplication.executor": "Run",
+    "Spring Boot.LivingProviderApplication.executor": "Run",
+    "Spring Boot.MsgProviderApplication.executor": "Run",
+    "Spring Boot.NettyServerApplication.executor": "Run",
+    "Spring Boot.UserProviderApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/app/ideaProject/feel/qiyu-live-app/qiyu-live-gift-provider/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "模块",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true",
+    "应用程序.DESUtils.executor": "Run",
+    "应用程序.ImClientApplication.executor": "Run",
+    "应用程序.NettyServerApplication.executor": "Run",
+    "应用程序.TagInfoUtils.executor": "Run",
+    "应用程序.testConnection.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql_aurora_aws",
+      "redis"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.idea.qiyu.live.framework.redis.starter.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\app\ideaProject\feel\qiyu-live-app\qiyu-live-gift-provider\src\main\resources" />
+      <recent name="E:\app\ideaProject\feel\qiyu-live-app\qiyu-live-api\src\main\java\org\qiyu\live\api\service\impl" />
+      <recent name="E:\app\ideaProject\feel\qiyu-live-app\qiyu-live-api\src\main\java\org\qiyu\live\api\controller" />
+      <recent name="E:\app\ideaProject\feel\qiyu-live-app\qiyu-live-common-interface\src\main\java\com\qiyu\live\common\interfaces\topic" />
+      <recent name="E:\app\ideaProject\feel\qiyu-live-app\qiyu-live-gift-provider\src\main\java\org\qiyu\live\gift\provider\config" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\app\ideaProject\feel\qiyu-live-app\qiyu-live-user-provider\Docker" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.qiyu.live.web.starter.error" />
+      <recent name="org.qiyu.live.im.enmu" />
+      <recent name="org.qiyu.live.im.provider.service.impl" />
+      <recent name="org.qiyu.live.im.provider" />
+      <recent name="org.qiyu.live.core.server.handler.impl" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <myKeys>
+      <visibility group="Gradle 任务" flag="true" />
+      <visibility group="Grunt" flag="true" />
+      <visibility group="Gulp" flag="true" />
+      <visibility group="HTTP Requests" flag="true" />
+      <visibility group="HTTP 请求" flag="true" />
+      <visibility group="Maven 目标" flag="true" />
+      <visibility group="Node.js" flag="true" />
+      <visibility group="Recent projects" flag="true" />
+      <visibility group="Run configurations" flag="true" />
+      <visibility group="npm" flag="true" />
+      <visibility group="yarn" flag="true" />
+      <visibility group="最近的项目" flag="true" />
+      <visibility group="运行配置" flag="true" />
+    </myKeys>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.GiftProviderApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <shortenClasspath name="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests | #11" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="11" requestIdentifier="#11" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="AccountProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="qiyu-live-account-provider" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qiyu.live.account.provider.AccountProviderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qiyu-live-bank-api" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qiyu.live.bank.api.BankApiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qiyu.live.bank.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qiyu-live-bank-provider" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qiyu.live.bank.provider.BankProviderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qiyu.live.bank.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GiftProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qiyu-live-gift-provider" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qiyu.live.gift.provider.GiftProviderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qiyu.live.gift.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImClientApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qiyu-live-im-core-server" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="handler.ImClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qiyu-live-im-core-server" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="handler.ImClientApplication" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=9199" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qiyu-live-im-provider" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qiyu.live.im.provider.ImProviderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qiyu.live.im.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImRouterProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qiyu-live-im-router-provider" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qiyu.live.im.router.provider.ImRouterProviderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qiyu.live.im.router.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LivingProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="qiyu-living-room-provider" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qiyu.live.living.provider.LivingProviderApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qiyu.live.living.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NettyServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <envs>
+        <env name="-DUBBO_IP_TO_REGISTRY" value="192.168.149.134-DUBBO_PORT_TO_REGISTRY=8848" />
+      </envs>
+      <module name="qiyu-live-im-core-server" />
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.qiyu.live.core.server.NettyServerApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.qiyu.live.core.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SHORTEN_COMMAND_LINE" value="ARGS_FILE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests | #11" />
+      <item itemvalue="Spring Boot.AccountProviderApplication" />
+      <item itemvalue="Spring Boot.ApiWebApplication" />
+      <item itemvalue="Spring Boot.GatewayApplication" />
+      <item itemvalue="Spring Boot.IdGenerateApplication" />
+      <item itemvalue="Spring Boot.MsgProviderApplication" />
+      <item itemvalue="Spring Boot.UserProviderApplication" />
+      <item itemvalue="Spring Boot.BankApiApplication" />
+      <item itemvalue="Spring Boot.BankProviderApplication" />
+      <item itemvalue="Spring Boot.GiftProviderApplication" />
+      <item itemvalue="Spring Boot.LivingProviderApplication" />
+      <item itemvalue="Spring Boot.ImClientApplication (1)" />
+      <item itemvalue="Spring Boot.ImClientApplication" />
+      <item itemvalue="Spring Boot.ImProviderApplication" />
+      <item itemvalue="Spring Boot.ImRouterProviderApplication" />
+      <item itemvalue="Spring Boot.NettyServerApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.GiftProviderApplication" />
+        <item itemvalue="HTTP Request.generated-requests | #11" />
+        <item itemvalue="Spring Boot.BankApiApplication" />
+        <item itemvalue="Spring Boot.BankProviderApplication" />
+        <item itemvalue="Spring Boot.LivingProviderApplication" />
+        <item itemvalue="Spring Boot.ImRouterProviderApplication" />
+        <item itemvalue="Spring Boot.NettyServerApplication" />
+        <item itemvalue="Spring Boot.ImProviderApplication" />
+        <item itemvalue="Spring Boot.ImClientApplication (1)" />
+        <item itemvalue="Spring Boot.ImClientApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="7e8d5ad2-4dbe-48a4-aa4c-b3208d334238" name="更改" comment="" />
+      <created>1718535651942</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718535651942</updated>
+      <workItem from="1718535657453" duration="685000" />
+      <workItem from="1733144683336" duration="6368000" />
+      <workItem from="1733211335380" duration="31000" />
+      <workItem from="1733400045034" duration="11216000" />
+      <workItem from="1733481858808" duration="666000" />
+      <workItem from="1733484964215" duration="8814000" />
+      <workItem from="1733549376811" duration="4336000" />
+      <workItem from="1733568371534" duration="243000" />
+      <workItem from="1733568745180" duration="10921000" />
+      <workItem from="1733748490409" duration="6970000" />
+      <workItem from="1733839614621" duration="14000" />
+      <workItem from="1734691488535" duration="132000" />
+      <workItem from="1737597471107" duration="3817000" />
+      <workItem from="1737868696103" duration="53379000" />
+      <workItem from="1738462003790" duration="1181000" />
+      <workItem from="1739084265427" duration="10022000" />
+      <workItem from="1739094372500" duration="3137000" />
+      <workItem from="1739097891233" duration="926000" />
+      <workItem from="1739099393626" duration="2025000" />
+      <workItem from="1739103035516" duration="163000" />
+      <workItem from="1739103215022" duration="13000" />
+      <workItem from="1739103238405" duration="48166000" />
+      <workItem from="1739450279925" duration="4725000" />
+      <workItem from="1739515029668" duration="950000" />
+      <workItem from="1739518247690" duration="4888000" />
+      <workItem from="1739606773753" duration="1383000" />
+      <workItem from="1739609800917" duration="3000" />
+      <workItem from="1739613504285" duration="7936000" />
+      <workItem from="1739625486756" duration="19319000" />
+      <workItem from="1739863262286" duration="5759000" />
+      <workItem from="1740227232357" duration="6378000" />
+      <workItem from="1740278683541" duration="3392000" />
+      <workItem from="1740282318323" duration="7236000" />
+      <workItem from="1740307805856" duration="7534000" />
+      <workItem from="1740388435990" duration="24073000" />
+      <workItem from="1740529099324" duration="7761000" />
+      <workItem from="1740573411624" duration="365000" />
+      <workItem from="1740574169755" duration="54000" />
+      <workItem from="1740574248477" duration="168000" />
+      <workItem from="1740574426674" duration="1481000" />
+      <workItem from="1740576930732" duration="1389000" />
+      <workItem from="1740656368668" duration="11669000" />
+      <workItem from="1741003312613" duration="10390000" />
+      <workItem from="1741018531213" duration="8000" />
+      <workItem from="1741505691314" duration="20023000" />
+      <workItem from="1741604745899" duration="26923000" />
+      <workItem from="1741704484741" duration="384000" />
+      <workItem from="1741778532677" duration="7082000" />
+      <workItem from="1741858874971" duration="2117000" />
+      <workItem from="1741944917122" duration="8780000" />
+      <workItem from="1742033236900" duration="10503000" />
+      <workItem from="1742047777334" duration="8000" />
+      <workItem from="1742127475844" duration="7906000" />
+      <workItem from="1742210571938" duration="7145000" />
+      <workItem from="1742219358997" duration="5348000" />
+      <workItem from="1742303025928" duration="5904000" />
+      <workItem from="1742380802752" duration="14000" />
+      <workItem from="1742387211943" duration="8292000" />
+      <workItem from="1742462737515" duration="16945000" />
+      <workItem from="1742556090408" duration="21275000" />
+      <workItem from="1742703429711" duration="2778000" />
+      <workItem from="1742736491871" duration="28419000" />
+      <workItem from="1742895399828" duration="11932000" />
+      <workItem from="1743071257329" duration="6024000" />
+      <workItem from="1743077343270" duration="7211000" />
+      <workItem from="1743123879827" duration="27000" />
+      <workItem from="1743330166205" duration="5499000" />
+      <workItem from="1743335696997" duration="2009000" />
+      <workItem from="1743337723679" duration="8369000" />
+      <workItem from="1743411921535" duration="17972000" />
+      <workItem from="1743582210221" duration="15776000" />
+      <workItem from="1743755331751" duration="4171000" />
+      <workItem from="1743839006832" duration="2478000" />
+      <workItem from="1743841512736" duration="15099000" />
+    </task>
+    <task id="LOCAL-00001" summary="qiyu-live-app 第5章节">
+      <option name="closed" value="true" />
+      <created>1739339130677</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739339130677</updated>
+    </task>
+    <task id="LOCAL-00002" summary="qiyu-live-app 7">
+      <option name="closed" value="true" />
+      <created>1741009320102</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741009320102</updated>
+    </task>
+    <task id="LOCAL-00003" summary="qiyu-live-app newest">
+      <option name="closed" value="true" />
+      <created>1742217220058</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1742217220058</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="qiyu-live-app 第5章节" />
+    <MESSAGE value="qiyu-live-app 7" />
+    <MESSAGE value="qiyu-live-app newest" />
+    <option name="LAST_COMMIT_MESSAGE" value="qiyu-live-app newest" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$USER_HOME$/AppData/Local/Temp/feb70ddd-1449-4182-abba-c1e5a9097e63_qiyu-live-app-master.zip.e63/qiyu-live-app/qiyu-live-user-provider/src/main/java/org/qiyu/live/user/provider/dao/mapper/IUserPhoneMapper.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../../../qiyu-live-app/qiyu-live-gateway/src/main/java/org/qiyu/live/gateway/filter/AccountCheckFilter.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/controller/ShopInfoController.java</url>
+          <line>68</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/qiyu-live-api/src/main/java/org/qiyu/live/api/service/impl/LivingRoomServiceImpl.java</url>
+          <line>51</line>
+          <properties field="livingRoomRpc" class="org.qiyu.live.api.service.impl.LivingRoomServiceImpl" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

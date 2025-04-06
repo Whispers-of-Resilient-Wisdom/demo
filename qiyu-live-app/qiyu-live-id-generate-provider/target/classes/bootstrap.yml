@@ -1,0 +1,27 @@
+server:
+  port: 8087
+spring:
+  application:
+    name: qiyu-live-id-generate-provider
+  cloud:
+    nacos:
+       username: nacos
+       password: nacos
+       discovery:
+         server-addr: 192.168.149.134:8848
+         namespace: e8322267-8e51-493a-9ba4-9aa79fc9f458
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #访问主库
+    url: jdbc:mysql://192.168.149.134:8808/qiyu_live_common
+    username: root
+    password: root
+dubbo:
+  application:
+    name: ${spring.application.name}
+  registry:
+    address: nacos://192.168.149.134:8848?namespace=e8322267-8e51-493a-9ba4-9aa79fc9f458&&username=nacos&&password=nacos
+  protocol:
+    name: dubbo
+    port: 9098
+

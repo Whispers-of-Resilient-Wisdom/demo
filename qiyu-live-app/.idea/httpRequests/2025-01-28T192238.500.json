@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-01-28T11:22:38.075+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/batchQuery"
+}

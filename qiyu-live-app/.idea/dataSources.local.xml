@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-241.15989.150">
+    <data-source name="host" uuid="44ce9ff3-3f2f-4587-8579-239e81d4c203">
+      <database-info product="MySQL" version="8.0.41" jdbc-version="4.2" driver-name="Amazon Web Services (AWS) JDBC Driver for MySQL" driver-version="aws-mysql-connector-java-1.1.14 (Revision: 4629bb4ea3ade12a811483453fafcb8fc2a66bb5)" dbms="MYSQL" exact-version="8.0.41" exact-driver-version="1.1">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="qiyu_live_bank" />
+            <name qname="qiyu_live_common" />
+            <name qname="qiyu_live_gift" />
+            <name qname="qiyu_live_living" />
+            <name qname="qiyu_live_msg" />
+            <name qname="qiyu_live_user" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="0@192.168.149.134" uuid="fc9f986a-944f-4640-9b30-c1e45ff1ec76">
+      <database-info product="Redis Standalone" version="6.0.20" jdbc-version="4.2" driver-name="Redis JDBC Driver" driver-version="1.5" dbms="REDIS" exact-version="6.0.20" exact-driver-version="1.5">
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
+      </database-info>
+      <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed" />
+      <user-name>redis</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+  </component>
+</project>

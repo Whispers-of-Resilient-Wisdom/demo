@@ -1,0 +1,57 @@
+<configuration>
+    <springProperty name="APP_NAME" scope="context" source="spring.application.name" defaultValue="undefined"/>
+
+    <define name="index" class="com.qiyu.live.common.interfaces.utils.IpLogConversionRule"/>
+    <property name="LOG_HOME" value="E:/logs/${APP_NAME}/${index}"/>
+    <property name="LOG_PATTERN" value="[%d{yyyy-MM-dd HH:mm:ss.SSS} -%5p] %-40.40logger{39} :%msg%n"/>
+
+    <!-- 控制台标准继续输出内容 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <!-- 日志输出的格式 -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>${LOG_PATTERN}</pattern>
+        </layout>
+    </appender>
+
+    <!-- info级别的日志，记录到对应的文件内 -->
+    <appender name="INFO_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/${APP_NAME}.log</file>
+        <!-- 滚动策略，日志生成的时候会按照时间来进行分类，例如2023-05-11日的日志，后缀就会有2023-05-11 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/${APP_NAME}.log.%d{yyyy-MM-dd}</fileNamePattern>
+            <!-- 日志只保留1个月 -->
+            <maxHistory>1</maxHistory>
+        </rollingPolicy>
+        <!-- 日志输出的格式 -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>${LOG_PATTERN}</pattern>
+        </layout>
+    </appender>
+
+    <!-- error级别的日志，记录到对应的文件内 -->
+    <appender name="ERROR_FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/${APP_NAME}_error.log</file>
+        <!-- 滚动策略，日志生成的时候会按照时间来进行分类 -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/${APP_NAME}_error.log.%d{yyyy-MM-dd}</fileNamePattern>
+            <!-- 日志只保留1个月 -->
+            <maxHistory>1</maxHistory>
+        </rollingPolicy>
+        <!-- 日志输出的格式 -->
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <pattern>${LOG_PATTERN}</pattern>
+        </layout>
+        <!-- 只记录error级别的日志 -->
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>error</level>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+    </appender>
+
+    <!-- 根输出级别为INFO，控制台中将出现包含info及以上级别的日志 -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
+        <appender-ref ref="INFO_FILE"/>
+        <appender-ref ref="ERROR_FILE"/>
+    </root>
+</configuration>

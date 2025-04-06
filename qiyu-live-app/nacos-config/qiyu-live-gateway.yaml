@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: qiyu-live-api
+          uri: lb://qiyu-live-api
+          predicates:
+            - Path=/live/api/**,/userLogin/**
+dubbo:
+  application:
+    name: qiyu-live-gateway
+  protocol:
+    name: dubbo
+    port: 9097
+  registry:
+    address: nacos://192.168.149.134:8848?username=nacos&&password=nacos
+qiyu:
+  gateway:
+    notCheckUrlList:
+      - /live/api/userLogin/
+      - /live/api/living/list/

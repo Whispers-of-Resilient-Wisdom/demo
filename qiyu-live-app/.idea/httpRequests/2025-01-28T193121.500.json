@@ -1,0 +1,6 @@
+{
+  "timestamp": "2025-01-28T11:31:21.401+00:00",
+  "status": 500,
+  "error": "Internal Server Error",
+  "path": "/insertOne"
+}

@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: qiyu-live-im-core-server
+  cloud:
+    nacos:
+      discovery:
+        ip: 192.168.149.134
+  data:
+    redis:
+      port: 6379
+      host: 192.168.149.134
+      lettuce:
+        pool:
+          min-idle: 10
+          max-active: 100
+          max-idle: 10
+qiyu:
+  im:
+    tcp:
+      port: 8090
+    ws:
+      port: 8091
+  rmq:
+    producer:
+      nameSrv: 192.168.149.134:9876
+      groupName: ${spring.application.name}
+      retryTimes: 3
+      sendTimeOut: 3000
+    consumer:
+      nameSrv: 192.168.149.134:9876
+      groupName: ${spring.application.name}
+dubbo:
+  application:
+    name: ${spring.application.name}
+    qos-enable: false
+  registry:
+    address: nacos://192.168.149.134:8848?username=nacos&&password=nacos
+  protocol:
+    port: 9099

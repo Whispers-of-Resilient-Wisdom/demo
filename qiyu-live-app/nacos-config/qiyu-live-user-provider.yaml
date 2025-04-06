@@ -1,0 +1,47 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: qiyu-live-user-provider
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: 192.168.149.134:8848
+  datasource:
+    driver-class-name: org.apache.shardingsphere.driver.ShardingSphereDriver
+    url: jdbc:shardingsphere:classpath:qiyu-db-sharding.yaml
+    hikari:
+      pool-name: qiyu-user-pool
+      minimum-idle: 150
+      maximum-pool-size: 300
+      connection-timeout: 4000
+      max-lifetime: 60000
+  data:
+    redis:
+      host: 192.168.149.134
+      port: 6379
+      lettuce:
+        pool:
+          max-active: 50
+          max-idle: 20
+          min-idle: 10
+dubbo:
+  application:
+    name: qiyu-live-user-provider
+  registry:
+    address:  nacos://192.168.149.134:8848?username=nacos&&password=nacos
+  protocol:
+    name: dubbo
+    port: 9091
+qiyu:
+  rmq:
+    producer:
+      nameSrv: 192.168.149.134:9876
+      groupName: ${spring.application.name}
+      retryTimes: 3
+      sendTimeOut: 3000
+    consumer:
+      nameSrv: 192.168.149.134:9876
+      groupName: ${spring.application.name}

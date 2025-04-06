@@ -1,0 +1,60 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.qiyu</groupId>
+        <artifactId>qiyu-live-app</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <artifactId>qiyu-live-account-provider</artifactId>
+    <properties>
+        <qiyu-live-redis-starter.version>1.0-SNAPSHOT</qiyu-live-redis-starter.version>
+        <qiyu-live-account-interface.version>1.0-SNAPSHOT</qiyu-live-account-interface.version>
+        <qiyu-live-common-interface.version>1.0-SNAPSHOT</qiyu-live-common-interface.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-account-interface</artifactId>
+            <version>${qiyu-live-account-interface.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-common-interface</artifactId>
+            <version>${qiyu-live-common-interface.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-framework-redis-starter</artifactId>
+            <version>${qiyu-live-redis-starter.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version> 3.2.0-beta.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+            <version>${spring-cloud-boostrap.version}</version>
+        </dependency>
+    </dependencies>
+    <build>
+
+        <plugins>
+
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

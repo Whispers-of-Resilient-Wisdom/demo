@@ -1,0 +1,554 @@
+POST http://localhost:8082/live/api/shop/listSkuInfo?anchorId=53167
+Content-Type: application/x-www-form-urlencoded
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-04-05T183715.200.json
+
+###
+
+GET http://localhost:8083/live/api/userId?userId=300
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-15T220259.200.json
+
+###
+
+GET http://localhost:8082/insertOne?userid=300
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-13T214222.200.json
+
+###
+
+GET http://localhost:8082/test
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-02-09T224540.200.txt
+
+###
+
+GET http://localhost:8082/update?userid=300
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T221557.200.json
+
+###
+
+GET http://localhost:8082/update?userid=200
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T221329.200.json
+
+###
+
+GET http://localhost:8082/update?userid=200
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T220739.200.json
+
+###
+
+GET http://localhost:8082/update?userId=200
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T220727.500.json
+
+###
+
+GET http://localhost:8082/userId?userId=200
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T202728.200.json
+
+###
+
+GET http://localhost:8082/userId?userId=2012
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T202651.200.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIDList=800&userIDList=600&userIDList=700
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 4
+
+[
+
+]
+
+<> 2025-01-28T202545.200.json
+
+###
+
+GET http://192.168.149.1:8082/insertOne?userid=800
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T202507.200.json
+
+###
+
+GET http://192.168.149.1:8082/insertOne?userid=700
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T202459.200.json
+
+###
+
+GET http://192.168.149.1:8082/insertOne?userid=600
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T202452.200.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIDList=200&userIDList=300&userIDList=400&userIDList=500
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 4
+
+[
+
+]
+
+<> 2025-01-28T195604.200.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIDList=200&userIDList=300&userIDList=400&userIDList=500
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 4
+
+[
+
+]
+
+<> 2025-01-28T195544.200.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIdList=200,300,400,500
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 4
+
+[
+
+]
+
+<> 2025-01-28T195435.400.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIdList=200L
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 4
+
+[
+
+]
+
+<> 2025-01-28T195318.400.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIdList=200
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 4
+
+[
+
+]
+
+<> 2025-01-28T195310.400.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIdList=200
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 4
+
+[
+
+]
+
+<> 2025-01-28T195309.400.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIdList=200
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 4
+
+[
+
+]
+
+<> 2025-01-28T195304.400.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIdList=200L
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 4
+
+[
+
+]
+
+<> 2025-01-28T195141.200.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIdList=200,300,400
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 4
+
+[
+
+]
+
+<> 2025-01-28T195023.200.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIdList=200,300,400
+Content-Type: application/json
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 4
+
+[
+
+]
+
+<> 2025-01-28T194542.200.json
+
+###
+
+GET http://192.168.149.1:8082/insertOne?userid=500
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T194527.200.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIdList=200
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T194104.500.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIdList=200,300,400
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T193758.500.json
+
+###
+
+GET http://localhost:8082/batchQuery?userIdList=200,300,400
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T193733.500.json
+
+###
+
+GET http://localhost:8082/batchQuery?useridList=200,300,400
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T193702.500.json
+
+###
+
+GET http://192.168.149.1:8082/insertOne?userid=400
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T193644.200.json
+
+###
+
+GET http://192.168.149.1:8082/insertOne?userid=300
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T193633.200.json
+
+###
+
+GET http://192.168.149.1:8082/insertOne?userid=202
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T193200.500.json
+
+###
+
+GET http://192.168.149.1:8082/insertOne?userid=201
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T193132.500.json
+
+###
+
+GET http://localhost:8082/insertOne?userid=202
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T193121.500.json
+
+###
+
+GET http://localhost:8082/insertOne?userid=201
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T193115.500.json
+
+###
+
+GET http://localhost:8082/insertOne?userid=201
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T193107.500.json
+
+###
+
+GET http://localhost:8082/insertOne?userid=201
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T193106.500.json
+
+###
+
+GET http://localhost:8082/batchQuery?userid=2000&userid=2001&userid=2002&userid=2003&userid=2004&userid=2005&userid=2006&userid=2007&userid=2008&userid=2009&userid=2010&userid=2011&userid=2012&userid=2013&userid=2014&userid=2015&userid=2016&userid=2017&userid=2018&userid=2019&userid=2020&userid=2021&userid=2022&userid=2023
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T192238.500.json
+
+###
+
+GET http://localhost:8082/batchQuery?userid=2000&userid=2001&userid=2002&userid=2003&userid=2004&userid=2005&userid=2006&userid=2007&userid=2008&userid=2009&userid=2010&userid=2011&userid=2012&userid=2013&userid=2014&userid=2015&userid=2016&userid=2017&userid=2018&userid=2019&userid=2020&userid=2021&userid=2022&userid=2023
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-28T192233.500.json
+
+###
+
+GET http://localhost:8082/userId?userId=2012
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-27T205646.200.json
+
+###
+
+GET http://localhost:8082/insertOne?userid=2012
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-27T205636.500.json
+
+###
+
+GET http://localhost:8082/insertOne?userid=2012
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-27T205623.200.json
+
+###
+
+GET http://localhost:8082/userId?userId=2011
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-27T205506.200.json
+
+###
+
+GET http://localhost:8082/insertOne?userid=2011
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-27T205449.200.json
+
+###
+
+GET http://localhost:8082/insertOne?userId=2011
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-27T205418.200.json
+
+###
+
+GET http://localhost:8082/userId?userId=2010
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-27T170455.200.json
+
+###
+
+GET http://localhost:8082/insertOne?userId=2010
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-27T170439.200.json
+
+###
+
+GET http://localhost:8082/insertOne?userId=2010
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-27T170432.200.json
+
+###
+
+GET http://localhost:8082/userId?userId=210
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+###
+
+GET http://192.168.149.1:8082/insertOne?userid=2010
+User-Agent: IntelliJ HTTP Client/IntelliJ IDEA 2024.1.1
+Accept-Encoding: br, deflate, gzip, x-gzip
+Accept: */*
+content-length: 0
+
+<> 2025-01-27T170358.200.json
+
+###
+

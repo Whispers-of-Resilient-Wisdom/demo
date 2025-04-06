@@ -1,0 +1,23 @@
+
+server:
+  port: 8082
+spring:
+  application:
+    name: qiyu-live-api
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: 192.168.149.134:8848
+      config:
+        server-addr: 192.168.149.134:8848
+
+dubbo:
+  application:
+    name: qiyu-live-api
+  protocol:
+    name: dubbo
+    port: 9095
+  registry:
+    address: nacos://192.168.149.134:8848?username=nacos&&password=nacos

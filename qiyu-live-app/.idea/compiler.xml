@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-common-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-framework/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-framework/qiyu-live-framework-redis-starter/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-id-generate-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-id-generate-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-gateway/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-msg-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-msg-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-msg-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-account-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-account-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/test/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-im-core-server/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-im-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-liv-im-router-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-im-router-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-im-router-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-living-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-gift-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-gift-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-bank-interface/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-bank-provider/src/main/resources/archetype-resources" includeSubdirectories="true" />
+      <directory url="file://$PROJECT_DIR$/qiyu-live-bank-api/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="qiyu-live-id-generate-provider" />
+        <module name="qiyu-live-bank-interface" />
+        <module name="qiyu-live-im-core-interface" />
+        <module name="qiyu-live-bank-api" />
+        <module name="qiyu-live-living-interface" />
+        <module name="qiyu-live-gateway" />
+        <module name="qiyu-live-common-interface" />
+        <module name="qiyu-live-framework-redis-starter" />
+        <module name="qiyu-live-framework-web-starter" />
+        <module name="qiyu-live-im-router-interface" />
+        <module name="qiyu-live-gift-provider" />
+        <module name="qiyu-living-room-provider" />
+        <module name="qiyu-live-user-interface" />
+        <module name="qiyu-live-api" />
+        <module name="qiyu-live-msg-provider" />
+        <module name="test" />
+        <module name="qiyu-live-im-router-provider" />
+        <module name="qiyu-live-account-provider" />
+        <module name="qiyu-live-framework-datasource-starter" />
+        <module name="qiyu-live-bank-provider" />
+        <module name="qiyu-live-msg-interface" />
+        <module name="qiyu-live-id-generate-interface" />
+        <module name="qiyu-live-im-provider" />
+        <module name="qiyu-live-im-interface" />
+        <module name="qiyu-live-user-provider" />
+        <module name="qiyu-live-im-core-server" />
+        <module name="qiyu-live-account-interface" />
+        <module name="qiyu-live-framework-mq-starter" />
+        <module name="qiyu-live-gift-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="qiyu-msg-interface" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="qiyu-live-account-interface" options="-parameters" />
+      <module name="qiyu-live-account-provider" options="-parameters" />
+      <module name="qiyu-live-api" options="-parameters" />
+      <module name="qiyu-live-bank-api" options="-parameters" />
+      <module name="qiyu-live-bank-interface" options="-parameters" />
+      <module name="qiyu-live-bank-provider" options="-parameters" />
+      <module name="qiyu-live-common-interface" options="-parameters" />
+      <module name="qiyu-live-framework" options="" />
+      <module name="qiyu-live-framework-datasource-starter" options="-parameters" />
+      <module name="qiyu-live-framework-mq-starter" options="-parameters" />
+      <module name="qiyu-live-framework-redis-starter" options="-parameters" />
+      <module name="qiyu-live-framework-web-starter" options="-parameters" />
+      <module name="qiyu-live-gateway" options="-parameters" />
+      <module name="qiyu-live-gift-interface" options="-parameters" />
+      <module name="qiyu-live-gift-provider" options="-parameters" />
+      <module name="qiyu-live-id-generate-interface" options="-parameters" />
+      <module name="qiyu-live-id-generate-provider" options="-parameters" />
+      <module name="qiyu-live-im-core-interface" options="-parameters" />
+      <module name="qiyu-live-im-core-server" options="-parameters" />
+      <module name="qiyu-live-im-interface" options="-parameters" />
+      <module name="qiyu-live-im-provider" options="-parameters" />
+      <module name="qiyu-live-im-router-interface" options="-parameters" />
+      <module name="qiyu-live-im-router-provider" options="-parameters" />
+      <module name="qiyu-live-living-interface" options="-parameters" />
+      <module name="qiyu-live-msg-interface" options="-parameters" />
+      <module name="qiyu-live-msg-provider" options="-parameters" />
+      <module name="qiyu-live-user-interface" options="-parameters" />
+      <module name="qiyu-live-user-provider" options="-parameters" />
+      <module name="qiyu-living-room-provider" options="-parameters" />
+      <module name="qiyu-msg-interface" options="-parameters" />
+      <module name="test" options="-parameters" />
+    </option>
+  </component>
+</project>

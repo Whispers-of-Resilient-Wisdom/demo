@@ -1,0 +1,50 @@
+{
+  "400": {
+    "userId": 400,
+    "nickName": "测试",
+    "trueName": null,
+    "avatar": null,
+    "sex": 1,
+    "workCity": 1,
+    "bornCity": null,
+    "bornDate": null,
+    "createTime": "2025-01-28T11:36:47.000+00:00",
+    "updateTime": "2025-01-28T11:36:47.000+00:00"
+  },
+  "500": {
+    "userId": 500,
+    "nickName": "测试",
+    "trueName": null,
+    "avatar": null,
+    "sex": 1,
+    "workCity": 1,
+    "bornCity": null,
+    "bornDate": null,
+    "createTime": "2025-01-28T11:45:31.000+00:00",
+    "updateTime": "2025-01-28T11:45:31.000+00:00"
+  },
+  "200": {
+    "userId": 200,
+    "nickName": "测试",
+    "trueName": null,
+    "avatar": null,
+    "sex": 1,
+    "workCity": 1,
+    "bornCity": null,
+    "bornDate": null,
+    "createTime": "2025-01-27T04:50:09.000+00:00",
+    "updateTime": "2025-01-27T04:50:09.000+00:00"
+  },
+  "300": {
+    "userId": 300,
+    "nickName": "测试",
+    "trueName": null,
+    "avatar": null,
+    "sex": 1,
+    "workCity": 1,
+    "bornCity": null,
+    "bornDate": null,
+    "createTime": "2025-01-28T11:36:36.000+00:00",
+    "updateTime": "2025-01-28T11:36:36.000+00:00"
+  }
+}

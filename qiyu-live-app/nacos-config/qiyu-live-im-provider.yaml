@@ -1,0 +1,29 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: qiyu-live-im-provider
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+      discovery:
+        server-addr: 192.168.149.134:8848
+
+  data:
+    redis:
+      host: 192.168.149.134
+      port: 6379
+      lettuce:
+        pool:
+          max-active: 50
+          max-idle: 20
+          min-idle: 10
+dubbo:
+  application:
+    name: qiyu-live-im-provider
+  registry:
+    address:  nacos://192.168.149.134:8848?username=nacos&&password=nacos
+  protocol:
+    name: dubbo
+    port: 9200

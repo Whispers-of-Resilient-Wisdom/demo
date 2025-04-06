@@ -1,0 +1,3 @@
+org.idea.qiyu.live.framework.mq.starter.properties.RocketMQConsumerProperties
+org.idea.qiyu.live.framework.mq.starter.properties.RocketMQProducerProperties
+org.idea.qiyu.live.framework.mq.starter.producer.RocketMQProducerConfig

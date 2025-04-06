@@ -1,0 +1,100 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.qiyu</groupId>
+        <artifactId>qiyu-live-app</artifactId>
+        <version>1.0-SNAPSHOT</version>
+
+    </parent>
+    <artifactId>qiyu-live-api</artifactId>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.dubbo</groupId>
+            <artifactId>dubbo-spring-boot-starter</artifactId>
+            <version>3.2.0-beta.3</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>log4j-to-slf4j</artifactId>
+                    <groupId>org.apache.logging.log4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-user-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-msg-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-common-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-framework-web-starter</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-account-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-living-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-living-room-provider</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-im-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-im-core-server</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-gift-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.qiyu</groupId>
+            <artifactId>qiyu-live-bank-interface</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+<!--        Caffeine 是一个高效的 Java 缓存库，用于在内存中缓存数据。
+     它通过提供一个易于使用的 API 和高度优化的缓存实现，-->
+<!--        帮助提高应用程序的性能，尤其是在需要快速读取和缓存数据的场景中。-->
+        <dependency>
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
+            <version>2.6.2</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>

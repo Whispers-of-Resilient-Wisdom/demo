@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: qiyu-live-msg-provider
+  datasource:
+    hikari:
+      minimum-idle: 10
+      maximum-pool-size: 200
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #访问主库
+    url: jdbc:mysql://192.168.149.134:8808/qiyu_live_msg?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: root
+  data:
+    redis:
+      port: 6379
+      host: 192.168.149.134
+      lettuce:
+        pool:
+          min-idle: 10
+          max-active: 100
+          max-idle: 10
+dubbo:
+  application:
+    name: ${spring.application.name}
+  registry:
+    address: nacos://192.168.149.134:8848?username=nacos&&password=nacos
+  protocol:
+    name: dubbo
+    port: 9092
+qiyu:
+  rmq:
+    producer:
+      nameSrv: 192.168.149.134:9876
+      groupName: ${spring.application.name}
+      retryTimes: 3
+      sendTimeOut: 3000
+    consumer:
+      nameSrv: 192.168.149.134:9876
+      groupName: ${spring.application.name}
